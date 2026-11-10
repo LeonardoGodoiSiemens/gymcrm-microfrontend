@@ -57,6 +57,3 @@ docker build --build-arg VITE_API_BASE_URL=https://<api-id>.execute-api.<regiao>
 docker run -p 8080:80 <usuario_dockerhub>/gymcrm/frontend:v1
 docker login && docker push <usuario_dockerhub>/gymcrm/frontend:v1
 ```
-
-## Links (preencher após o deploy)
-- Frontend: [URL] · API Gateway: [URL] · Repositório: [URL]
